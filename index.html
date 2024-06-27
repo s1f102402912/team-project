@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <title>チームで作るwebサイト</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <h1 class="title">YouTube</h1>
-        <div id="container">
-           <div class="sidebar">
-                <ul>
-                    <li><a href="#id1">ホーム</a></li>
-                    <li><a href="#id2">概要</a></li>
-                    <li><a href="#id3">YouTuber</a></li>
+<head>
+    <meta charset="UTF-8">
+    <title>チームで作るwebサイト</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1 class="title">YouTube</h1>
+    <div id="container">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#id1">ホーム</a></li>
+                <li><a href="#id2">概要</a></li>
+                <li>
+                    <details>
+                        <summary>YouTuber</summary>
                         <ul>
-                            <li>日本の代表的なYouTuber</li>
-                                <ul>
-                                    <li>HikakinTV</li>
-                                    <li>はじめしゃちょー(hajime)</li>
-                                    <li>すしらーめん《りく》</li>
-                                </ul>
+                            <li class="title-item">日本の代表的なYouTuber</li>
+                            <ul class="youtuber-item">
+                                <li><a href="#hikakin">HikakinTV</a></li>
+                                <li><a href="#hajime">はじめしゃちょー(hajime)</a></li>
+                                <li><a href="#riku">すしらーめん《りく》</a></li>
+                            </ul>
                         </ul>
-                </ul>
-            </div>
-            <div class="content">
-                <p class="red">内容はこれから書きます</p>
-            </div>
+                    </details>
+                </li>
+            </ul>
         </div>
-    </body>
+        <div class="content">
+            <p class="red">内容はこれから書きます</p>
+        </div>
+    </div>
+</body>
 </html>
