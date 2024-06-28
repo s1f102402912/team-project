@@ -68,3 +68,29 @@ h1 {
   width: 80%;
   margin: 10px 0 10px 0;
 }
+
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slideshow-content {
+  display: flex;
+  animation: slideAnimation 12s infinite;
+}
+
+.slide {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+@keyframes slideAnimation {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(0); }
+  33.33% { transform: translateX(-100%); }
+  66% { transform: translateX(-100%); }
+  66.66% { transform: translateX(-200%); }
+  100% { transform: translateX(-200%); }
+}
